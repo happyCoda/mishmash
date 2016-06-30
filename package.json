@@ -1,0 +1,29 @@
+{
+  "name": "grebf-skeleton",
+  "version": "0.0.1",
+  "description": "gulp, browserify, react, flux, exporess, fetch and bootstrap skeleton",
+  "scripts": {},
+  "author": "happyCoda",
+  "license": "ISC",
+  "eslintConfig": {
+    "root": true
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "express": "^4.14.0",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.0.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-util": "^3.0.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
