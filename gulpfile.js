@@ -65,4 +65,4 @@ gulp.task('watch', function () {
   gulp.watch(['js/src/**/*'], settings, ['lint', 'browserify']);
 });
 
-gulp.task('dev', ['server', 'watch']);
+gulp.task('dev', ['connect', 'server', 'watch']);
